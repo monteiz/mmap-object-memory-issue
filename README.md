@@ -13,9 +13,10 @@ The `mmap-object` library is taking up more memory than expected. For larger fil
 ## Steps to Reproduce
 
 1. Clone this repository: `git clone https://github.com/monteiz/mmap-object-memory-issue.git`
-2. Install dependencies with `npm install`
-3. Run the application with `npm run start`
-4. Check the memory usage details logged in the console
+2. Enter the directory: `cd mmap-object-memory-issue`
+3. Install dependencies with `npm install`
+4. Run the application with `npm run start`
+5. Check the memory usage details logged in the console
 
 ## Expected Behaviour
 
