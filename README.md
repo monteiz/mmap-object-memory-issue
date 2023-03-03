@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a test application that demonstrates a memory usage issue with the npm package `mmap-object`.
+This repository contains a test application that demonstrates a memory usage issue with the npm package [mmap-object](https://github.com/allenluce/mmap-object), as reported in this [GitHub issue](https://github.com/allenluce/mmap-object/issues/39).
 
 The `loadMasterFile()` function in `index.js` loads a large text file into memory using `mmap-object` and logs the memory usage details. The text file is assumed to be ASCII encoded, and as such, it should take only one byte for each character.
 
